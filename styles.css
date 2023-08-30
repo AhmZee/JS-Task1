@@ -1,0 +1,28 @@
+body {
+  background-color: skyblue;
+}
+#rectangle {
+  width: 200px;
+  color: black;
+  background-color: white;
+  margin: 50px auto;
+  text-align: center;
+  padding: 70px;
+  border-radius: 10px;
+  transition: background-color 1s ease-in-out, width 1s ease-in-out;
+}
+
+#changecolorButton {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(198, 224, 233);
+  color: black;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+
